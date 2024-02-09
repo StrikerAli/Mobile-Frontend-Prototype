@@ -1,0 +1,17 @@
+<!-- circle_with_outline.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Transparent background -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <!-- Circle with outline -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="2dp"
+            android:color="#ffc90a"/> <!-- Adjust outline color -->
+        </shape>
+    </item>
+</layer-list>

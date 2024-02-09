@@ -117,6 +117,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout14()
         }
+        val imageViewInLayout7_10 = findViewById<ImageView>(R.id.imageView2552)
+        imageViewInLayout7_10.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
+        val imageViewInLayout7_11 = findViewById<ImageView>(R.id.imageView9)
+        imageViewInLayout7_11.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout24()
+        }
     }
 
     private fun switchToLayout8() {
@@ -142,6 +152,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout14()
         }
+        val imageViewInLayout7_9 = findViewById<ImageView>(R.id.imageView2552)
+        imageViewInLayout7_9.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
         }
 
     private fun switchToLayout9() {
@@ -165,6 +180,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         imageViewInLayout7_4.setOnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout14()
+        }
+        val imageViewInLayout7_9 = findViewById<ImageView>(R.id.imageView2552)
+        imageViewInLayout7_9.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
         }
 
     }
@@ -230,6 +250,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout18()
         }
+        val imageViewInLayout7_9 = findViewById<ImageView>(R.id.imageView11222)
+        imageViewInLayout7_9.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
     }
 
     private fun switchToLayout13() {
@@ -269,7 +294,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout15()
         }
-
+        val imageViewInLayout7_9 = findViewById<ImageView>(R.id.imageView2552)
+        imageViewInLayout7_9.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
     }
 
     private fun switchToLayout15() {
@@ -331,6 +360,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         imageViewInLayout7_5.setOnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout19()
+        }
+        val imageViewInLayout7_9 = findViewById<ImageView>(R.id.imageView11222)
+        imageViewInLayout7_9.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
         }
     }
 
@@ -401,6 +435,74 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         imageViewInLayout7_5.setOnClickListener {
             // Switch to layout4.xml when the ImageView in layout2.xml is clicked
             switchToLayout19()
+        }
+    }
+
+
+    private fun switchToLayout21() {
+        setContentView(R.layout.layout21)
+        val imageViewInLayout7 = findViewById<ImageView>(R.id.imageView25)
+        imageViewInLayout7.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout8()
+        }
+        val imageViewInLayout7_2 = findViewById<ImageView>(R.id.imageView19)
+        imageViewInLayout7_2.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout12()
+        }
+        val imageViewInLayout7_4 = findViewById<ImageView>(R.id.imageView252)
+        imageViewInLayout7_4.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout14()
+        }
+        val imageViewInLayout7_5 = findViewById<ImageView>(R.id.imageView20)
+        imageViewInLayout7_5.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout7()
+        }
+        val imageViewInLayout7_6 = findViewById<ImageView>(R.id.imageView54)
+        imageViewInLayout7_6.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout22()
+        }
+        val imageViewInLayout7_7 = findViewById<ImageView>(R.id.imageView51234)
+        imageViewInLayout7_7.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout22()
+        }
+        val imageViewInLayout7_12 = findViewById<ImageView>(R.id.imageView56)
+        imageViewInLayout7_12.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout23()
+        }
+    }
+
+    private fun switchToLayout22() {
+        setContentView(R.layout.layout22)
+        val imageViewInLayout7_7 = findViewById<ImageView>(R.id.imageView)
+        imageViewInLayout7_7.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
+
+    }
+
+    private fun switchToLayout23() {
+        setContentView(R.layout.layout23)
+        val imageViewInLayout7_7 = findViewById<ImageView>(R.id.imageView51)
+        imageViewInLayout7_7.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout21()
+        }
+    }
+
+    private fun switchToLayout24() {
+        setContentView(R.layout.layout24)
+        val imageViewInLayout7_7 = findViewById<ImageView>(R.id.imageView51)
+        imageViewInLayout7_7.setOnClickListener {
+            // Switch to layout4.xml when the ImageView in layout2.xml is clicked
+            switchToLayout7()
         }
     }
 
